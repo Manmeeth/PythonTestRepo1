@@ -1,0 +1,8 @@
+1. Add File -> git add filename.py
+2. Commit the changes -> git commit -m "Message about that changes"
+3. Check the repo status -> git status
+4. Push your commit -> git push
+5. Pull from repo -> git pull
+6. Rebase with main -> git rebase main -> (You are trying to keep others' changes and then add your change.)
+If command 6 does not work, then perform command 1 and again give the below command 7:
+7. git rebase --continue (Repeat command 1 and command 7 till the rebase conflict is resolved.)
